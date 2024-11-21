@@ -1,0 +1,13 @@
+train: C:\Users\YooHoGeun\Desktop\nvidiaSpecialist\poisonous mushroom.v1i.yolov5pytorch\train\images
+val: C:\Users\YooHoGeun\Desktop\nvidiaSpecialist\poisonous mushroom.v1i.yolov5pytorch\valid\images
+test: C:\Users\YooHoGeun\Desktop\nvidiaSpecialist\poisonous mushroom.v1i.yolov5pytorch\test\images
+
+nc: 1
+names: ['poisonous mushrom']
+
+roboflow:
+  workspace: edible-and-poisonous-fungi
+  project: poisonous-mushroom-eqp5b
+  version: 1
+  license: CC BY 4.0
+  url: https://universe.roboflow.com/edible-and-poisonous-fungi/poisonous-mushroom-eqp5b/dataset/1
