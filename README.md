@@ -2,31 +2,49 @@
 AI_Project Data and Models
 
 # Title
-실시간 영상 분석 AI를 활용한 독버섯 구분
+AI-Powered Real-Time Video Analysis for Toxic Mushroom Identification
 
-최근 AI 기술이 빠르게 발전하면서,
-많은 상황과 문제에 인공지능을 사용한다.
-특히 시각적인 자료를 통해 학습된 인공지능은 직관성과 정확성이 높으며,
-학습시키는 데이터를 바꿈으로서, 수많은 분야에 유연하게 사용이 가능하다.
-이는 인간의 의식주에도 당연하게, 영향을 미치며,
-효율적이고 빠른 정보수집을 이뤄낸다.
+With the rapid advancement of AI technology,artificial intelligence
+is being applied to numerous situations and problems. In particular,
+AI trained on visual data offers high accuracy and intuitiveness.
+By changing the data used for training, AI can be flexibly applied
+to various fields, including aspects of daily life such as food,
+clothing, and shelter, thereby enabling efficient and fast
+information gathering.
 
-# General description of the current project
-실시간 분석 AI를 통해 웹캠에 비추어진 사진, 그림, 화면 등을 인식하고,
-학습되었던 독버섯의 형태가 있다면, 객체로 취급한다.
-버섯에 대한 전문적인 지식이 없더라도, 버섯 채집이나 연구를 목표로
-하는 사람들에게 신속하게 지식을 제공해준다.
+# General Description of the Current Project
+The real-time analysis AI recognizes photos, illustrations, or screens
+displayed through a webcam. If it identifies the features of toxic
+mushrooms from the learned data, it treats them as objects of interest.
+This provides immediate knowledge to individuals engaged in mushroom
+collection or research, even if they lack specialized knowledge of
+mushrooms.
 
-# Proposed idea for enhancements to the project
-카메라와 실행을 위한 하드웨어만 있으면, 
-구현 가능하기에, 여러 기기에 적용시키기 쉽다. 그렇기에,
-자체 애플리케이션을 개발하여, 모바일 시스템으로 운용할 수 있다는 점이
-가장 큰 장점으로 손 꼽힐 것으로 보인다.
+# Proposed Idea for Enhancements to the Project
+Since the implementation requires only a camera and hardware to execute
+the system, it can be easily adapted to multiple devices. This
+flexibility highlights the potential of developing a standalone
+application, making it operable on mobile systems, which could become
+a key advantage.
 
-#Value and signifiance of the project
+# Value and Significance of the Project
+For individuals without foundational knowledge of mushroom collection,
+finding reliable information and selecting the correct mushrooms can be
+time-consuming. Toxic mushroom recognition technology accelerates this
+process and, through additional data provision, holds the potential
+for continuous improvement.
 
+# Current Limitations
+Despite extensive training data, the AI may fail to recognize objects
+if they are not clearly captured. Additionally, without dedicated
+effort to generate clean and accurate datasets, the system’s accuracy
+may decline. These challenges contribute to inefficiencies and require
+significant time investment.
 
+# Literature Review
+1. A thorough understanding of webcams and real-time analysis AI is
+essential, particularly the operation and processes of image recognition
+systems.
 
-
-
-
+2. Basic knowledge of artificial intelligence and familiarity with
+different types of execution hardware are necessary.
